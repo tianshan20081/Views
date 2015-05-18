@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aoeng.views" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".uis.HomeUI"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".uis.GuaGuaKaUI"
+            android:label="@string/title_activity_gua_gua_ka_ui" >
+        </activity>
+        <activity
+            android:name=".uis.TearClotherUI"
+            android:label="@string/title_activity_tear_clother_ui" >
+        </activity>
+        <activity
+            android:name=".uis.RoundImgDrawableUI"
+            android:label="@string/title_activity_round_img_drawable_ui" >
+        </activity>
+    </application>
+
+</manifest>
